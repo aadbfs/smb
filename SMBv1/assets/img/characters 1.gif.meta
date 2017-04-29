@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 95e02ad0b8890f4468270fc545588bdb
-timeCreated: 1493179534
+labels:
+- Character
+timeCreated: 1493434610
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +13,13 @@ TextureImporter:
     21300008: mario_walk_left_1
     21300010: mario_walk_left_2
     21300012: mario_walk_left_3
+    21300014: mario_walk_right_2
+    21300016: mario_walk_right_1
+    21300018: characters 1_2
+    21300020: characters 1_3
+    21300022: characters 1_4
+    21300024: characters 1_5
+    21300026: mario_walk_right_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +43,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 1
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -163,7 +172,98 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_walk_right_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 368
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_walk_right_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 368
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: characters 1_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 368
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: characters 1_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 384
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: characters 1_4
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 368
+        width: 14
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6202741, y: 0.4909471}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: characters 1_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 368
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mario_walk_right_3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 368
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
